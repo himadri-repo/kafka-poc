@@ -1,0 +1,35 @@
+{
+  "name": "prod_cons_node",
+  "version": "1.0.0",
+  "description": "Sample project for kafka consumers and producers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start.js"
+  },
+  "keywords": [
+    "kafka",
+    "producer",
+    "consumer"
+  ],
+  "author": "Himadri Majumdar",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "kafka-node": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "path": "^0.12.7",
+    "uuid": "^3.3.2"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
